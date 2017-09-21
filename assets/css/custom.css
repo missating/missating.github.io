@@ -1,10 +1,10 @@
 html {
-  background:#505D6E url(../images/body.jpg) no-repeat center center fixed; 
-	min-height:100%;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
+    background: #505D6E url(../images/body.jpg) no-repeat center center fixed;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body {
@@ -110,3 +110,82 @@ body {
     color: white;
     padding: 10px 8px 10px 12px;
 }
+
+
+/* all section */
+
+.section {
+    z-index: 1;
+    min-height: 420px;
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: none;
+    top: 0;
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding-top: 160px;
+    }
+}
+
+#head {
+    display: block;
+}
+
+
+/* Typography */
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.lead {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.tagline {
+    font-size: 2.0em;
+    line-height: 1.3em;
+    font-weight: normal;
+    margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+    .lead {
+        font-size: 1.3em;
+    }
+}
+
+/*bio button*/
+
+.btn{
+	color:#333;
+	text-shadow: none;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:0 none;
+    text-transform: uppercase;
+}
+.btn:hover {
+	color:#000;
+}
+.btn-lg { 
+	font-size:inherit;
+    margin-top: 40px;
+}
+
