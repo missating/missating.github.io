@@ -189,3 +189,36 @@ a:active {
     margin-top: 40px;
 }
 
+/* sections */
+
+.section { 
+	z-index: 1;
+	min-height:420px;
+	width: 100%; 
+	overflow:auto;
+	height:100%;
+	padding-top:100px;
+	padding-bottom:50px; 
+	display:none;
+	top:0;
+} 
+@media (min-width: 768px) {
+	.section { padding-top:160px;}
+}
+
+/* Show one of sections */
+#head { 
+	display: block;
+}
+
+h5 a {
+    color: greenyellow;
+}
+
+h5 a:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
