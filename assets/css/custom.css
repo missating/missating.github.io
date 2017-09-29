@@ -156,6 +156,15 @@ a:active {
     line-height: 1.2em;
 }
 
+.title { 
+	font-family: 'Wire One', Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	font-size:3em;
+	margin-bottom:15px; 
+	color:#FDF9F4; 
+	line-height:1em;
+}
+
 .tagline {
     font-size: 2.0em;
     line-height: 1.3em;
@@ -211,11 +220,15 @@ a:active {
 	display: block;
 }
 
-h5 a {
+a:hover {
+    text-decoration: none;
+}
+
+.green a {
     color: greenyellow;
 }
 
-h5 a:hover{
+ .green a:hover{
     text-decoration: none;
     text-transform: uppercase;
 }
