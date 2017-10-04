@@ -180,8 +180,15 @@ a:active {
 
 /*bio button*/
 
-.btn{
-	color:#333;
+.btn:hover {
+	color:#000;
+}
+
+.btn-lg { 
+	font-size:inherit;
+    margin-top: 40px;
+    padding:16px 30px;
+    color:#000;
 	text-shadow: none;
 	text-decoration: none;
 	-webkit-border-radius: 3px;
@@ -189,13 +196,6 @@ a:active {
 	border-radius: 3px;
 	border:0 none;
     text-transform: uppercase;
-}
-.btn:hover {
-	color:#000;
-}
-.btn-lg { 
-	font-size:inherit;
-    margin-top: 40px;
 }
 
 /* sections */
@@ -236,13 +236,41 @@ a:hover {
 
 /*buttons*/
 
+
 .btn-link {
 	color:rgba(255,255,255,.8);
 }
+
+
 .btn-link:hover, .btn-link:focus, .btn-link:active {
 	color:#fff;
-        text-decoration: none;
+    text-decoration: none;
 }
+
+.btn-default {
+	background: rgba(255,255,255,.5);
+}
+
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+	background: rgba(255,255,255,.8);
+}
+
+
+/*thumbnails*/
+
+.thumbnail {
+	background-color: rgba(255,255,255,.2);
+	border: 0 none;
+	padding:10px;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+}
+.thumbnail .caption {
+	color: inherit;
+}
+
 
 
 
