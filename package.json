@@ -1,0 +1,30 @@
+{
+	"name": "missating.github.io",
+	"version": "1.0.0",
+	"description": "Personal Portfolio Site for Vanessa Ating. A Software Engineer and Podcaster based in Lagos, Nigeria.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"scss": "node-sass --watch scss -o css",
+		"start:dev": "live-server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/missating/missating.github.io.git"
+	},
+	"keywords": [
+		"html",
+		"scss",
+		"javascript"
+	],
+	"author": "Vanessa Ating <atingenkay@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/missating/missating.github.io/issues"
+	},
+	"homepage": "https://github.com/missating/missating.github.io#readme",
+	"dependencies": {
+		"live-server": "^1.2.1",
+		"node-sass": "^4.13.1"
+	}
+}
