@@ -1,0 +1,59 @@
+/*
+  Media Queries
+
+  0 - 600px - Phone
+  600 - 900px - Tablet Potrait
+  900 - 1200px - Tablet Landscape
+  [1200 - 1800] - Normal styles would apply here
+  1800px + - big desktop
+*/
+
+/*
+  breakpoint arguments
+  - phone
+  - tab-port
+  - tab-land
+  - big-desktop
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint==phone {
+
+    // 600px
+    @media (max-wdith: 37.5em) {
+      @content
+    }
+
+    ;
+  }
+
+  @if $breakpoint==tab-port {
+
+    // 900px
+    @media (max-wdith: 56.25em) {
+      @content
+    }
+
+    ;
+  }
+
+  @if $breakpoint==tab-land {
+
+    // 1200px
+    @media (max-wdith: 75em) {
+      @content
+    }
+
+    ;
+  }
+
+  @if $breakpoint==big-desktop {
+
+    // 1800px
+    @media (min-wdith: 112.5em) {
+      @content
+    }
+
+    ;
+  }
+}
