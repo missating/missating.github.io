@@ -213,13 +213,13 @@ body {
     padding: 4rem 8rem; }
     .main-container footer .contact {
       text-decoration: none;
-      background-color: #458478;
+      background-color: #116530;
       color: #FEF9F8;
       padding: 0.3rem;
       border: 0.2rem solid #115238; }
       .main-container footer .contact:hover {
         background-color: transparent;
-        color: #458478; }
+        color: #116530; }
     @media (max-width: 75em) {
       .main-container footer {
         padding: 2rem;
