@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap');
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   line-height: 1.7;
 }
@@ -9,4 +9,24 @@ body {
 h1 {
   font-size: 6rem;
   font-weight: 700;
+  color: $main-text-color;
+  line-height: 1;
+
+  @include respond(phone) {
+    font-size: 4rem;
+  }
+}
+
+p {
+  font-size: 2rem;
+  color: $sub-text-color;
+  font-weight: 400;
+}
+
+a {
+  font-size: 2rem;
+  font-weight: 600;
+  color: $link-color;
+  cursor: pointer;
+  margin: 1.5rem;
 }
