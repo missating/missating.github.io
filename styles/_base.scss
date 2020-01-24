@@ -86,11 +86,26 @@ body {
 
     .intro-text {
       padding: 0 0 15rem 40rem;
+      backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
 
       h1 {
+        animation: moveInLeft 2s ease-out;
+        -moz-animation: moveInLeft 2s ease-out;
+        -o-animation: moveInLeft 2s ease-out;
+        -webkit-animation: moveInLeft 2s ease-out;
+
         span {
           display: block;
         }
+      }
+
+      p {
+        animation: moveInRight 2s ease-out;
+        -moz-animation: moveInRight 2s ease-out;
+        -o-animation: moveInRight 2s ease-out;
+        -webkit-animation: moveInRight 2s ease-out;
       }
 
       @include respond(tab-land) {
