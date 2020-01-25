@@ -1,4 +1,4 @@
-# Personal Portfolio Site for Vanessa Ating
+# My Portfolio Site
 
 > It was built using plain old HTML/SCSS. The SCSS was transpilled to CSS using `node-sass`
 >
