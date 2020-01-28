@@ -22,7 +22,7 @@
 	"bugs": {
 		"url": "https://github.com/missating/missating.github.io/issues"
 	},
-	"homepage": "https://github.com/missating/missating.github.io#readme",
+	"homepage": "https://missating.github.io",
 	"dependencies": {
 		"live-server": "^1.2.1",
 		"node-sass": "^4.13.1"
