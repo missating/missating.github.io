@@ -6,7 +6,7 @@
 
 # Link
 
-https://missating.github.io/
+https://missating.github.io
 
 # Design
 
