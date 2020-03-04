@@ -18,7 +18,6 @@ html {
   @include respond(big-desktop) {
     font-size: 75%; //12px
   }
-
 }
 
 body {
@@ -31,18 +30,18 @@ body {
   height: 100vh;
   display: grid;
   grid-template-areas:
-    'header header header'
-    'main main main'
-    'footer footer footer';
+    "header header header"
+    "main main main"
+    "footer footer footer";
   grid-template-columns: 12rem 1fr 12rem;
   grid-template-rows: auto 1fr auto;
   border: 1rem solid $border-color;
 
   @include respond(tab-port) {
     grid-template-areas:
-      'header'
-      'main'
-      'footer';
+      "header"
+      "main"
+      "footer";
 
     grid-template-columns: 1fr;
     grid-template-rows:
@@ -68,13 +67,7 @@ body {
     .logo {
       width: 5rem;
       height: 5rem;
-      background-color: $logo-bg-color;
-      padding: 1rem;
-      border: 0.2rem solid $logo-border-color;
-
-      p {
-        color: $logo-text-color;
-      }
+      cursor: pointer;
     }
   }
 
