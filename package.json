@@ -25,6 +25,6 @@
   "homepage": "https://missating.github.io",
   "dependencies": {
     "live-server": "^1.2.1",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
